@@ -10,8 +10,8 @@ export const psychologist = {
   crp: "CRP-SP 06/233683",
   specialty: "Psicóloga Clínica — Abordagem Cognitivo-Comportamental",
   title: "Psicóloga Clínica",
-  heroPhrase: "Cuidar da mente é um ato de coragem. Estou aqui para acompanhar você nessa jornada.",
-  photoUrl: "public/assets/1744394494486.jpg", // Replace with actual photo path
+  heroPhrase: "Dar o primeiro passo é o maior ato de amor próprio. Vamos construir sua jornada juntos?",
+  photoUrl: "public/assets/marina.jpg", // Replace with actual photo path
   photoAlt: "Psicóloga Marina Reis de Souza — consultório em São Paulo",
   email: "contato@marina.psicologia.br",
   phone: "(11) 99839-0324",
@@ -25,7 +25,7 @@ export const psychologist = {
     mapsEmbedUrl: "", // Optional: Google Maps embed URL
   },
   social: {
-    linkedin: "https://www.linkedin.com/in/marina-reis-6b21b5198/",
+    linkedin: "https://www.linkedin.com/in/psimarina-reis/",
     instagram: "https://www.instagram.com/heyp.sico/",
   },
 };
