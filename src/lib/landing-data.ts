@@ -11,7 +11,7 @@ export const psychologist = {
   specialty: "Psicóloga Clínica — Abordagem Cognitivo-Comportamental",
   title: "Psicóloga Clínica",
   heroPhrase: "Dar o primeiro passo é o maior ato de amor próprio. Vamos construir sua jornada juntos?",
-  photoUrl: "public/assets/marina.jpg", // Replace with actual photo path
+  photoUrl: "/assets/marina.jpg", // Replace with actual photo path
   photoAlt: "Psicóloga Marina Reis de Souza — consultório em São Paulo",
   email: "contato@marina.psicologia.br",
   phone: "(11) 99839-0324",
