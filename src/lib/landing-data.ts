@@ -15,7 +15,7 @@ export const psychologist = {
   photoAlt: "Psicóloga Marina Reis de Souza — consultório em São Paulo",
   email: "contato@marina.psicologia.br",
   phone: "(11) 99839-0324",
-  whatsapp: "11998390324",
+  whatsapp: "+5511998390324",
   location: {
     address: "Rua Augusta, 1500 — Sala 512",
     neighborhood: "Consolação",
