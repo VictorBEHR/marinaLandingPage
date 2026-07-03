@@ -68,7 +68,7 @@ export default function ContactSection() {
               <div>
                 <p className="text-sm text-foreground">{psychologist.phone}</p>
                 <a
-                  href={`https://wa.me/${psychologist.whatsapp}`}
+                  href={`https://wa.me/${psychologist.whatsapp}?text=${encodeURI(psychologist.message)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-foreground/70 hover:text-foreground transition-colors inline-flex items-center gap-1.5 mt-1"
@@ -120,7 +120,7 @@ export default function ContactSection() {
             <div className="pt-2">
               <Button className="rounded-full" asChild>
                 <a
-                  href={`https://wa.me/${psychologist.whatsapp}`}
+                  href={`https://wa.me/${psychologist.whatsapp}?text=${encodeURI(psychologist.message)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

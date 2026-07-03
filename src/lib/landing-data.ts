@@ -16,6 +16,7 @@ export const psychologist = {
   email: "contato@marina.psicologia.br",
   phone: "(11) 99839-0324",
   whatsapp: "+5511998390324",
+  message: "Olá! Vi seu site e gostaria de agendar uma consulta.",
   location: {
     address: "Rua Augusta, 1500 — Sala 512",
     neighborhood: "Consolação",

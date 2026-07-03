@@ -91,7 +91,7 @@ export default function Navbar() {
               asChild
             >
               <a
-                href={`https://wa.me/${psychologist.whatsapp}`}
+                href={`https://wa.me/${psychologist.whatsapp}?text=${encodeURI(psychologist.message)}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -182,7 +182,7 @@ export default function Navbar() {
                     asChild
                   >
                     <a
-                      href={`https://wa.me/${psychologist.whatsapp}`}
+                      href={`https://wa.me/${psychologist.whatsapp}?text=${encodeURI(psychologist.message)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
