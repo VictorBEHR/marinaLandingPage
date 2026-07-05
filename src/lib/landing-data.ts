@@ -32,22 +32,30 @@ export const psychologist = {
 };
 
 export const stats = [
-  { value: "12+", label: "anos de atuação" },
-  { value: "600+", label: "pacientes atendidos" },
-  { value: "Pós em TCC", label: "Especialização" },
-  { value: "CRP-SP", label: "Registro ativo" },
+  { value: "2024", label: "atuação clínica desde" },
+  { value: "Adultos e crianças", label: "atendimento especializado" },
+  { value: "Pós-graduação", label: "em Psicanálise (PUC Minas)" },
+  { value: "CRP 06/233683", label: "registro ativo" },
 ];
 
 export const about = {
   paragraphs: [
-    "Sou psicóloga clínica formada pela Universidade de São Paulo (USP) há mais de 12 anos. Minha trajetória profissional é marcada pelo compromisso com a ética, o acolhimento e a constante atualização técnica.",
-    "Acredito que cada pessoa possui uma história única e que o processo terapêutico deve ser construído com respeito, empatia e colaboração. Minha abordagem principal é a Terapia Cognitivo-Comportamental (TCC), mas integro também técnicas de Terapia do Esquema e Mindfulness, adaptando o atendimento às necessidades específicas de cada paciente.",
+    "Sou psicóloga, graduada pela Universidade Cruzeiro do Sul (UNICSUL), com registro ativo no CRP 06/233683. Atuo com atendimentos clínicos presenciais e online, oferecendo um espaço de escuta qualificada, acolhimento, sigilo e cuidado emocional para crianças, adolescentes e adultos.",
+    "Minha prática é fundamentada na Psicanálise, respeitando a singularidade de cada paciente e seu processo terapêutico. Além da clínica, possuo experiência em atendimento a crianças com Transtorno do Espectro Autista (TEA), elaboração de Plano Terapêutico Individual (PTI), avaliações comportamentais e orientação parental."
   ],
   mission:
-    "Oferecer um espaço seguro de escuta e transformação, onde cada pessoa possa desenvolver autoconhecimento e ferramentas para viver com mais plenitude.",
-  values: ["Ética", "Acolhimento", "Respeito", "Confidencialidade", "Compromisso"],
-  formation: "Graduação em Psicologia — USP",
-  approach: "Terapia Cognitivo-Comportamental (TCC)",
+    "Oferecer um espaço seguro de escuta, acolhimento e cuidado, promovendo autoconhecimento e respeitando a singularidade de cada pessoa em sua jornada terapêutica.",
+  values: [
+    "Ética",
+    "Acolhimento",
+    "Respeito",
+    "Sigilo",
+    "Compromisso"
+  ],
+  formation:
+    "Graduação em Psicologia — Universidade Cruzeiro do Sul (UNICSUL) | Pós-graduação em Clínica Psicanalítica na Atualidade (PUC Minas - em andamento)",
+  approach:
+    "Psicanálise"
 };
 
 export const areas = [
@@ -138,12 +146,14 @@ export const serviceTypes = {
 export const differentiators = [
   {
     title: "Formação Acadêmica",
-    description: "Graduação pela USP e Pós-Graduação em Terapia Cognitivo-Comportamental",
+    description:
+      "Graduação em Psicologia pela Universidade Cruzeiro do Sul (UNICSUL) e pós-graduação em Clínica Psicanalítica na Atualidade pela PUC Minas (em andamento).",
     icon: "GraduationCap",
   },
   {
     title: "Especializações",
-    description: "Formação em Terapia do Esquema, Mindfulness e Psicologia Positiva",
+    description:
+      "Pós-graduação em Clínica Psicanalítica na Atualidade (PUC Minas) e experiência em intervenção ABA para TEA.",
     icon: "BookOpen",
   },
   {
@@ -160,20 +170,20 @@ export const differentiators = [
 
 export const testimonials = [
   {
-    text: "A terapia com a Dra. Maria Clara transformou minha relação com a ansiedade. Aprendi ferramentas que uso até hoje e me sinto muito mais preparada para lidar com os desafios do dia a dia.",
-    author: "Paciente A., 34 anos",
+    text: "Encontrei um espaço de escuta acolhedor e sem julgamentos. Ao longo do processo terapêutico, consegui compreender melhor minhas emoções e enfrentar desafios com mais segurança.",
+    author: "Paciente A.",
   },
   {
-    text: "Comecei a terapia buscando ajuda para um momento difícil e encontrei muito mais que isso. O acolhimento e a escuta atenta fizeram toda a diferença no meu processo.",
-    author: "Paciente B., 28 anos",
+    text: "Desde o primeiro atendimento me senti respeitado e acolhido. A terapia tem sido fundamental para meu processo de autoconhecimento.",
+    author: "Paciente B.",
   },
   {
-    text: "Era minha primeira vez em terapia e fui recebida com muito cuidado e paciência. Cada sessão foi um espaço seguro para me entender melhor e crescer.",
-    author: "Paciente C., 42 anos",
+    text: "A atenção, o cuidado e o profissionalismo fizeram toda a diferença. Cada sessão contribuiu para que eu enxergasse novas possibilidades para minha vida.",
+    author: "Paciente C.",
   },
   {
-    text: "Depois de anos evitando procurar ajuda, finalmente dei o primeiro passo. A abordagem da Dra. Maria Clara me fez sentir confortável e compreendida desde o primeiro contato.",
-    author: "Paciente D., 51 anos",
+    text: "Foi minha primeira experiência com terapia e me senti muito confortável durante todo o processo. Recomendo pelo acolhimento e pela escuta atenta.",
+    author: "Paciente D.",
   },
 ];
 
