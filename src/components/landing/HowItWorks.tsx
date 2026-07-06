@@ -90,19 +90,19 @@ export default function HowItWorks() {
           transition={{ duration: 0.5 }}
         >
           <Tabs value={tab} onValueChange={setTab} className="w-full">
-            <TabsList className="mx-auto w-fit mb-8 rounded-full bg-muted p-1">
+            <TabsList className="mx-auto mb-8 grid w-full max-w-full grid-cols-2 gap-1 rounded-full bg-muted p-1 sm:w-fit sm:inline-flex sm:grid-cols-none">
               <TabsTrigger
                 value="online"
-                className="rounded-full data-[state=active]:bg-background px-5 gap-2"
+                className="rounded-full data-[state=active]:bg-background whitespace-normal text-center px-2 sm:px-5 gap-1.5 sm:gap-2 text-xs sm:text-sm"
               >
-                <Laptop className="h-4 w-4" />
+                <Laptop className="h-4 w-4 shrink-0" />
                 Atendimento Online
               </TabsTrigger>
               <TabsTrigger
                 value="presential"
-                className="rounded-full data-[state=active]:bg-background px-5 gap-2"
+                className="rounded-full data-[state=active]:bg-background whitespace-normal text-center px-2 sm:px-5 gap-1.5 sm:gap-2 text-xs sm:text-sm"
               >
-                <MapPin className="h-4 w-4" />
+                <MapPin className="h-4 w-4 shrink-0" />
                 Atendimento Presencial
               </TabsTrigger>
             </TabsList>

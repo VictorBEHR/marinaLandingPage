@@ -10,17 +10,17 @@ export default function StatsBar() {
       aria-label="Indicadores profissionais"
     >
       <div className="max-w-4xl mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 min-[400px]:grid-cols-2 md:grid-cols-4 gap-6 md:gap-12">
           {stats.map((stat, i) => (
             <motion.div
               key={stat.label}
-              className="text-center"
+              className="text-center min-w-0 break-words"
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
             >
-              <p className="text-3xl md:text-4xl font-light tracking-tight text-foreground">
+              <p className="text-xl min-[400px]:text-2xl md:text-4xl font-light tracking-tight text-foreground">
                 {stat.value}
               </p>
               <p className="mt-1 text-sm text-muted-foreground">{stat.label}</p>
