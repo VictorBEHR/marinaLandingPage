@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Target, GraduationCap, BookOpen } from "lucide-react";
+import { Target, GraduationCap, BookOpen, Notebook, NotebookPen } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { about } from "@/lib/landing-data";
 
@@ -40,12 +40,16 @@ export default function AboutSection() {
             {/* Quick info badges */}
             <div className="mt-6 flex flex-wrap gap-2">
               <Badge variant="secondary" className="rounded-full px-3 py-1 font-normal">
+                <BookOpen className="h-3.5 w-3.5 mr-1.5" />
+                {about.approach}
+              </Badge>
+              <Badge variant="secondary" className="rounded-full px-3 py-1 font-normal">
                 <GraduationCap className="h-3.5 w-3.5 mr-1.5" />
                 {about.formation}
               </Badge>
               <Badge variant="secondary" className="rounded-full px-3 py-1 font-normal">
-                <BookOpen className="h-3.5 w-3.5 mr-1.5" />
-                {about.approach}
+                <NotebookPen className="h-3.5 w-3.5 mr-1.5" />
+                {about.ongoing}
               </Badge>
             </div>
           </div>

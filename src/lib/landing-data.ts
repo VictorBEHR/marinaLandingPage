@@ -8,21 +8,22 @@ export const psychologist = {
   name: "Marina Reis de Souza",
   shortName: "Marina Reis",
   crp: "CRP-SP 06/233683",
-  specialty: "Psicóloga Clínica — Abordagem Cognitivo-Comportamental",
+  specialty: "Psicóloga Clínica — Psicanálise Clínica de Freud a Lacan e ABA",
   title: "Psicóloga Clínica",
   heroPhrase: "Dar o primeiro passo é o maior ato de amor próprio. Vamos construir sua jornada juntos?",
   photoUrl: "/assets/marina.jpg", // Replace with actual photo path
   photoAlt: "Psicóloga Marina Reis de Souza — consultório em São Paulo",
-  email: "contato@marina.psicologia.br",
+  email: "psicomarinaehrenberger@gmail.com",
   phone: "(11) 99839-0324",
   whatsapp: "+5511998390324",
   message: "Olá! Vi seu site e gostaria de agendar uma consulta.",
   location: {
-    address: "Rua Augusta, 1500 — Sala 512",
-    neighborhood: "Consolação",
-    city: "São Paulo — SP",
-    cep: "01304-001",
-    mapsUrl: "https://maps.google.com/?q=Rua+Augusta+1500+Sao+Paulo",
+    address: "Alameda Grajaú, 98 - 18º Andar",
+    neighborhood: "Alphaville Industrial",
+    city: "Barueri — SP",
+    cep: "06454-050",
+    // mapsUrl: "https://maps.google.com/?q=Rua+Augusta+1500+Sao+Paulo",
+    mapsUrl: "https://maps.google.com/?q=Alameda+Grajaú,+98+-+18º+Andar,+Alphaville+Industrial,+Barueri,+SP,+06454-050",
     mapsEmbedUrl: "", // Optional: Google Maps embed URL
   },
   social: {
@@ -32,7 +33,7 @@ export const psychologist = {
 };
 
 export const stats = [
-  { value: "2024", label: "atuação clínica desde" },
+  { value: "2026", label: "atuação clínica desde" },
   { value: "Adultos e crianças", label: "atendimento especializado" },
   { value: "Pós-graduação", label: "em Psicanálise (PUC Minas)" },
   { value: "CRP 06/233683", label: "registro ativo" },
@@ -40,8 +41,8 @@ export const stats = [
 
 export const about = {
   paragraphs: [
-    "Sou psicóloga, graduada pela Universidade Cruzeiro do Sul (UNICSUL), com registro ativo no CRP 06/233683. Atuo com atendimentos clínicos presenciais e online, oferecendo um espaço de escuta qualificada, acolhimento, sigilo e cuidado emocional para crianças, adolescentes e adultos.",
-    "Minha prática é fundamentada na Psicanálise, respeitando a singularidade de cada paciente e seu processo terapêutico. Além da clínica, possuo experiência em atendimento a crianças com Transtorno do Espectro Autista (TEA), elaboração de Plano Terapêutico Individual (PTI), avaliações comportamentais e orientação parental."
+    "Minha prática é fundamentada na Psicanálise, área na qual possuo pós-graduação pela PUC Minas, respeitando a singularidade de cada paciente e seu processo terapêutico. Desde 2023, também atuo na área de Análise do Comportamento Aplicada (ABA), com experiência no atendimento a crianças com Transtorno do Espectro Autista (TEA), elaboração de Plano Terapêutico Individual (PTI), avaliações comportamentais e orientação parental.",
+    "Atualmente, curso pós-graduação em Intervenção ABA para Autismo e Deficiência Intelectual pelo CBI of Miami, buscando constante atualização para oferecer um atendimento ético, baseado em evidências e centrado nas necessidades de cada paciente e sua família."
   ],
   mission:
     "Oferecer um espaço seguro de escuta, acolhimento e cuidado, promovendo autoconhecimento e respeitando a singularidade de cada pessoa em sua jornada terapêutica.",
@@ -53,9 +54,11 @@ export const about = {
     "Compromisso"
   ],
   formation:
-    "Graduação em Psicologia — Universidade Cruzeiro do Sul (UNICSUL) | Pós-graduação em Clínica Psicanalítica na Atualidade (PUC Minas - em andamento)",
+    "Graduação em Psicologia — Universidade Cruzeiro do Sul (UNICSUL) | Pós-graduação em Clínica Psicanalítica na Atualidade (PUC Minas)",
+  ongoing:
+    "Pós-graduação em Intervenção ABA para Autismo e Deficiência Intelectual (CBI of Miami) - Em andamento",
   approach:
-    "Psicanálise"
+    "Psicanálise e ABA"
 };
 
 export const areas = [
@@ -88,6 +91,11 @@ export const areas = [
     title: "Desenvolvimento Pessoal",
     description: "Processo de autoconhecimento para alcançar seus objetivos e potencializar seu crescimento.",
     icon: "ArrowUpCircle",
+  },
+  {
+    title: "Autismo",
+    description: "Acompanhamento especializado no TEA, com foco em desenvolvimento de habilidades, autonomia e suporte às famílias.",
+    icon: "Puzzle",
   },
 ];
 
@@ -147,7 +155,7 @@ export const differentiators = [
   {
     title: "Formação Acadêmica",
     description:
-      "Graduação em Psicologia pela Universidade Cruzeiro do Sul (UNICSUL) e pós-graduação em Clínica Psicanalítica na Atualidade pela PUC Minas (em andamento).",
+      "Graduação em Psicologia pela Universidade Cruzeiro do Sul (UNICSUL) e pós-graduação em Clínica Psicanalítica na Atualidade pela PUC Minas.",
     icon: "GraduationCap",
   },
   {
@@ -170,20 +178,20 @@ export const differentiators = [
 
 export const testimonials = [
   {
-    text: "Encontrei um espaço de escuta acolhedor e sem julgamentos. Ao longo do processo terapêutico, consegui compreender melhor minhas emoções e enfrentar desafios com mais segurança.",
-    author: "Paciente A.",
+    text: "Minha filha tinha muitos problemas comportamentais na escola e em casa e, graças a terapia com a Marina, minha filha hoje consegue expressar as suas emoções sem comportamentos heterolesivos e pela primeira vez, ela foi convidada para um aniversário na salinha dela.",
+    author: "Paciente A.M.S",
   },
   {
-    text: "Desde o primeiro atendimento me senti respeitado e acolhido. A terapia tem sido fundamental para meu processo de autoconhecimento.",
-    author: "Paciente B.",
+    text: "Eu tinha problemas de ansiedade generalizada e por causa disso eu não estava conseguindo me inserir no mercado de trabalho. Graças a análise da doutora, hoje sou gerente da minha empresa.",
+    author: "Paciente H.T.R",
   },
   {
-    text: "A atenção, o cuidado e o profissionalismo fizeram toda a diferença. Cada sessão contribuiu para que eu enxergasse novas possibilidades para minha vida.",
-    author: "Paciente C.",
+    text: "Muito obrigada, Marina! A senhora me ajudou a superar e lidar com os meus problemas com depressão e autoestima.",
+    author: "Paciente V.B",
   },
   {
-    text: "Foi minha primeira experiência com terapia e me senti muito confortável durante todo o processo. Recomendo pelo acolhimento e pela escuta atenta.",
-    author: "Paciente D.",
+    text: "Foi minha primeira experiência com terapia e me senti muito confortável desde o princípio. Recomendo pelo acolhimento e pela escuta atenta.",
+    author: "Paciente Z.O",
   },
 ];
 
@@ -197,9 +205,14 @@ export const faqItems = [
       "Cada sessão tem duração média de 45 a 50 minutos. Esse tempo é planejado para que possamos trabalhar o conteúdo da sessão de forma produtiva, sem pressa, mas mantendo o foco terapêutico.",
   },
   {
-    question: "Com que frequência devo fazer terapia?",
+    question: "Com que frequência devo fazer terapia (adulto)?",
     answer:
-      "A frequência recomendada é de uma sessão por semana, especialmente no início do processo. Conforme a evolução do tratamento, podemos ajustar para sessões quinzenais. A regularidade é fundamental para o sucesso terapêutico.",
+      "A frequência recomendada é de uma a duas sessões por semana dependendo do caso, especialmente no início do processo. Conforme a evolução do tratamento, podemos ajustar para sessões quinzenais. A regularidade é fundamental para o sucesso terapêutico.",
+  },
+  {
+    question: "Com que frequência devo fazer terapia (criança)?",
+    answer:
+      "Para atendimento infantil, considerando neurodivergências, é realizado uma avaliação de marcos de desenvolvimento e, a partir desta, é realizado um plano terapêutico individual indicando a quantidade de horas necessárias para a evolução das habilidades alvo.",
   },
   {
     question: "A primeira sessão é diferente das demais?",
@@ -209,7 +222,7 @@ export const faqItems = [
   {
     question: "Como funciona o atendimento online?",
     answer:
-      "O atendimento online é realizado por videochamada (Google Meet), em ambiente sigiloso e seguro. Você precisa de um dispositivo com câmera, microfone e conexão estável com a internet. A eficácia é equivalente à do atendimento presencial.",
+      "O atendimento online é realizado por videochamada (Google Meet), em ambiente sigiloso e seguro.",
   },
   {
     question: "Aceita convênios ou planos de saúde?",
@@ -217,9 +230,9 @@ export const faqItems = [
       "Não realizo atendimento por convênio. Ofereço valores acessíveis e, mediante solicitação, forneço recibo para reembolso junto ao seu plano de saúde, caso ele cubra sessões de psicologia.",
   },
   {
-    question: "Qual a diferença entre as abordagens terapêuticas?",
+    question: "Por que psicanálise?",
     answer:
-      "Cada abordagem tem suas particularidades. A TCC (Terapia Cognitivo-Comportamental) foca na relação entre pensamentos, emoções e comportamentos, trabalhando de forma estruturada e prática. Na primeira sessão, explico detalhadamente como trabalho e esclareço todas as suas dúvidas.",
+      "A psicanálise é um espaço de escuta e acolhimento que permite compreender melhor seus pensamentos, emoções e comportamentos. Ao longo do processo terapêutico, é possível identificar padrões, ressignificar experiências e desenvolver novas formas de lidar com conflitos, ansiedade, relacionamentos, autoestima e outros desafios da vida. Mais do que aliviar sintomas, a psicanálise busca promover o autoconhecimento e contribuir para uma vida com mais equilíbrio e bem-estar..",
   },
   {
     question: "Como é garantido o sigilo das sessões?",
