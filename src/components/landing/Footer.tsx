@@ -59,7 +59,7 @@ export default function Footer() {
               </a>
               <a
                 href={`mailto:${psychologist.email}`}
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-2"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-2 min-w-0 break-all"
               >
                 <Mail className="h-3.5 w-3.5" />
                 {psychologist.email}
@@ -96,8 +96,8 @@ export default function Footer() {
         <Separator className="my-8 bg-border/40" />
 
         {/* Bottom bar */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-          <p>{footer.copyright}</p>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4 flex-wrap text-center md:text-left text-xs text-muted-foreground">
+          <p className="break-words max-w-full">{footer.copyright}</p>
           <div className="flex items-center gap-4">
             <a href={footer.privacyUrl} className="hover:text-foreground transition-colors">
               Política de Privacidade

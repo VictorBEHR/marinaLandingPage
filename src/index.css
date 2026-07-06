@@ -116,6 +116,16 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html,
+  body {
+    overflow-x: clip;
+  }
+  img,
+  video,
+  iframe,
+  svg {
+    max-width: 100%;
+  }
   body {
     @apply bg-background text-foreground;
   }

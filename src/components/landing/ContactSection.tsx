@@ -51,7 +51,7 @@ export default function ContactSection() {
             {psychologist.location.address && (
               <div className="flex items-start gap-4">
                 <MapPin className="h-5 w-5 text-foreground/50 mt-0.5 shrink-0" />
-                <div>
+                <div className="min-w-0">
                   <p className="text-sm text-foreground">
                     {psychologist.location.address}
                   </p>
@@ -65,7 +65,7 @@ export default function ContactSection() {
             {/* Phone & WhatsApp */}
             <div className="flex items-start gap-4">
               <Phone className="h-5 w-5 text-foreground/50 mt-0.5 shrink-0" />
-              <div>
+              <div className="min-w-0">
                 <p className="text-sm text-foreground">{psychologist.phone}</p>
                 <a
                   href={`https://wa.me/${psychologist.whatsapp}?text=${encodeURI(psychologist.message)}`}
@@ -84,7 +84,7 @@ export default function ContactSection() {
               <Mail className="h-5 w-5 text-foreground/50 mt-0.5 shrink-0" />
               <a
                 href={`mailto:${psychologist.email}`}
-                className="text-sm text-foreground/80 hover:text-foreground transition-colors"
+                className="text-sm text-foreground/80 hover:text-foreground transition-colors break-all min-w-0"
               >
                 {psychologist.email}
               </a>

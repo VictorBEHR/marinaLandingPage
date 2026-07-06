@@ -54,7 +54,9 @@ export const about = {
     "Compromisso"
   ],
   formation:
-    "Graduação em Psicologia — Universidade Cruzeiro do Sul (UNICSUL) | Pós-graduação em Clínica Psicanalítica na Atualidade (PUC Minas)",
+    "Graduação em Psicologia — Universidade Cruzeiro do Sul (UNICSUL)",
+  latoSenso:
+    "Pós-graduação em Clínica Psicanalítica na Atualidade (PUC Minas)",
   ongoing:
     "Pós-graduação em Intervenção ABA para Autismo e Deficiência Intelectual (CBI of Miami) - Em andamento",
   approach:

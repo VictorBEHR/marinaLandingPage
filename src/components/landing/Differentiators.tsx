@@ -58,7 +58,7 @@ export default function Differentiators() {
                 <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center shrink-0">
                   <Icon className="h-5 w-5 text-foreground/60" />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h3 className="text-sm font-medium text-foreground">{item.title}</h3>
                   <p className="text-sm text-muted-foreground mt-1 leading-relaxed">
                     {item.description}

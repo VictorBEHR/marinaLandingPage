@@ -18,7 +18,7 @@ export default function Landing() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="min-h-screen flex flex-col"
+      className="min-h-screen flex flex-col w-full overflow-x-clip"
     >
       {/* Skip to content — accessibility */}
       <a
@@ -30,7 +30,7 @@ export default function Landing() {
 
       <Navbar />
 
-      <main>
+      <main className="min-w-0">
         <HeroSection />
         <StatsBar />
         <AboutSection />
