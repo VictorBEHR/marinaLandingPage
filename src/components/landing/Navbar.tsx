@@ -52,7 +52,8 @@ export default function Navbar() {
       <div className="max-w-5xl mx-auto flex items-center justify-between px-6 h-16 md:h-20">
         {/* Logo */}
         <a
-          href="#"
+          href="#hero"
+          onClick={(e) => handleNavClick(e, "#hero")}
           className="text-lg md:text-xl font-medium tracking-tight text-foreground"
         >
           {psychologist.shortName}
