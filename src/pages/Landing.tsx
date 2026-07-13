@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { MessageCircle } from "lucide-react";
 import Navbar from "@/components/landing/Navbar";
 import HeroSection from "@/components/landing/HeroSection";
 import StatsBar from "@/components/landing/StatsBar";
@@ -11,6 +12,7 @@ import FAQ from "@/components/landing/FAQ";
 import FinalCTA from "@/components/landing/FinalCTA";
 import ContactSection from "@/components/landing/ContactSection";
 import Footer from "@/components/landing/Footer";
+import { psychologist } from "@/lib/landing-data";
 
 export default function Landing() {
   return (
@@ -44,6 +46,16 @@ export default function Landing() {
       </main>
 
       <Footer />
+
+      <a
+        href={`https://wa.me/${psychologist.whatsapp}?text=${encodeURIComponent(psychologist.message)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Falar pelo WhatsApp"
+        className="fixed right-5 bottom-5 z-[100] flex h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform duration-200 hover:scale-105 focus-visible:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
+      >
+        <MessageCircle className="h-8 w-8" aria-hidden="true" />
+      </a>
     </motion.div>
   );
 }
