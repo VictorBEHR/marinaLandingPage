@@ -5,6 +5,7 @@ import { Calendar, MessageCircle, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { psychologist } from "@/lib/landing-data";
+import logoImage from "@/assets/marina-logo-transparent.png";
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
@@ -28,7 +29,14 @@ export default function HeroSection() {
         aria-hidden="true"
       />
 
-      <div className="max-w-5xl mx-auto w-full grid md:grid-cols-5 gap-10 md:gap-16 items-center">
+      <img
+        src={logoImage}
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none absolute right-0 top-20 z-0 w-64 max-w-[55vw] opacity-20 md:right-8 md:top-24 md:w-96 dark:opacity-30 dark:brightness-125"
+      />
+
+      <div className="relative z-10 max-w-5xl mx-auto w-full grid md:grid-cols-5 gap-10 md:gap-16 items-center">
         {/* Photo — Column */}
         <motion.div
           className="md:col-span-2 flex justify-center"

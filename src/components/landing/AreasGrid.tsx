@@ -10,6 +10,7 @@ import {
   Wind,
   ArrowUpCircle,
   LucideIcon,
+  Puzzle,
 } from "lucide-react";
 
 const iconMap: Record<string, LucideIcon> = {
@@ -19,6 +20,7 @@ const iconMap: Record<string, LucideIcon> = {
   Sparkles,
   Wind,
   ArrowUpCircle,
+  Puzzle,
 };
 
 export default function AreasGrid() {

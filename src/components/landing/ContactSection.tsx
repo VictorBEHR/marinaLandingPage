@@ -75,7 +75,7 @@ export default function ContactSection() {
                 >
                   <MessageCircle className="h-3.5 w-3.5" />
                   Fale pelo WhatsApp
-                </a>
+                </a>.me
               </div>
             </div>
 

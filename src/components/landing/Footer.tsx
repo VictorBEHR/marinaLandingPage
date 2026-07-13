@@ -3,11 +3,19 @@
 import { Heart, MessageCircle, Mail, Instagram, Linkedin } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { psychologist, footer } from "@/lib/landing-data";
+import logoImage from "@/assets/marina-logo-transparent.png";
 
 export default function Footer() {
   return (
-    <footer className="px-6 py-12 md:py-16" role="contentinfo">
-      <div className="max-w-5xl mx-auto">
+    <footer className="relative overflow-hidden px-6 py-12 md:py-16" role="contentinfo">
+      <img
+        src={logoImage}
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none absolute bottom-0 left-0 z-0 w-64 max-w-[55vw] opacity-20 md:left-8 md:w-96 dark:opacity-30 dark:brightness-125"
+      />
+
+      <div className="relative z-10 max-w-5xl mx-auto">
         <div className="grid md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
